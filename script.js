@@ -21,8 +21,8 @@ function guessNumber(){
 }
 function userResponse(){
     const action = document.querySelector("#actions");
-    action.removeEventListener("click", handleUserResponse);
     action.addEventListener("click", handleUserResponse);
+    action.disabled;
 }
 function handleUserResponse(event){
     event.preventDefault();
