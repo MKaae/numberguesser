@@ -1,0 +1,50 @@
+body {
+    background-color: #0d9f2d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+#actions {
+    display: none;
+}
+#start-game {
+    margin-top: 1em;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+#bottom-p {
+    border-bottom: solid 1px white;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 3em;
+    padding-top: 0;
+}
+h1 {
+    border-bottom: solid 1px white;
+    width: 75%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 0;
+}
+/* <body>
+    <a href="index.html">Go back!</a>
+    <h1>Numberguesser full game</h1>
+    <p>Chose a maximum number.</p> 
+    <p>Then chose a number between 1 and maximum and remember it.</p>
+    <p>After you have entered maximum value and thought of a number press start</p>
+    <input type="number" id="high-value" value="100">
+    <button id="start-game">Start</button>
+    <ul id="guess-list">
+    </ul>
+    <form action="" id="actions">
+        <button id="too-low-btn">Too low</button>
+        <button id="too-high-btn">Too high</button>
+        <button id="success-btn">Correct!</button>
+    </form>
+</body> */
