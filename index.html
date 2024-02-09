@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Numberguesser</title>
+    <title>Numberguesser full game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="fullgame.html">Link to attempt at full game!</a>
-    <h1>Numberguesser</h1>
+    <h1>Numberguesser full game</h1>
     <p id="bottom-p">
-        Choose a number between 1-100 and i will try to guess it<br>
-        Press the start button when you have thought of a number
+        Chose a maximum number.<br>
+        Then chose a number between 1 and maximum and remember it.<br>
+        After you have entered maximum value and thought of a number press start
     </p>
-    <button id="start">Start</button>
-    <ul id="guesses">
+    <input type="number" id="high-value" value="100">
+    <button id="start-game">Start</button>
+    <ul id="guess-list">
     </ul>
     <form action="" id="actions">
-        <button id="low-btn">Too low</button>
-        <button id="high-btn">Too high</button>
-        <button id="correct-btn">Correct!</button>
+        <button id="too-low-btn">Too low</button>
+        <button id="too-high-btn">Too high</button>
+        <button id="success-btn">Correct!</button>
     </form>
 </body>
 <script src="script.js"></script>
